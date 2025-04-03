@@ -1,0 +1,160 @@
+.tag-container,
+.tag-container-2 {
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #dde6e9;
+  min-height: 40px;
+  padding: 5px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.custom-tagsinput1 {
+  padding: 0px;
+}
+
+.custom-tagsinput1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #fff;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #556270;
+  padding: 5px 5px;
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+  width: auto;
+  min-height: auto;
+  min-height: 45px;
+}
+
+.custom-tagsinput1 input {
+  height: 30px !important;
+  border: 0px;
+  min-height: 30px !important;
+}
+
+.tagsinput {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background: #fff;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #556270;
+  padding: 2px;
+  border: 1px solid #dde6e9;
+  border-radius: 2px;
+}
+
+.tagsinput,
+.tagsinput * {
+  box-sizing: border-box;
+}
+
+.custom-tagsinput1 .tag_input_outer {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.tag-container .custom_tag,
+.tag-container-2 .custom_tag {
+  color: #fff;
+  font-style: normal;
+  padding: 10px;
+  margin: 0px 5px 5px 0px;
+  display: inline-block;
+}
+
+.custom-tagsinput1 .custom_tag {
+  position: relative;
+  background: #556270;
+  display: block;
+  max-width: 100%;
+  word-wrap: break-word;
+  color: #fff;
+  padding: 5px 30px 5px 10px;
+  border-radius: 2px;
+  margin: 0 5px 5px 0;
+  text-transform: capitalize;
+}
+
+.tag-container .custom_tag:nth-child(5n + 1) {
+  background-color: #f65454;
+}
+
+.tag-container .custom_tag:nth-child(5n + 2) {
+  background: #dfb3b3;
+  color: #000;
+}
+
+.tag-container .custom_tag:nth-child(5n + 3) {
+  background: #b0deea;
+  color: #000;
+}
+
+.tag-container .custom_tag:nth-child(5n + 4) {
+  background: #a2c8ce;
+  color: #000;
+}
+
+.tag-container .custom_tag:nth-child(5n + 5) {
+  background: #b6d886;
+}
+
+.custom_tag .tag-remove-icons {
+  position: absolute;
+  background: 0 0;
+  display: block;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  padding: 0;
+  border: 0;
+  margin: 0px;
+}
+
+.custom_tag .tag-remove-icons:before,
+.custom_tag .tag-remove-icons:after {
+  background: #fff;
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 2px;
+  top: 14px;
+  left: 10px;
+  content: '';
+}
+
+.custom_tag .tag-remove-icons:after {
+  -webkit-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+}
+
+.custom_tag .tag-remove-icons:before {
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+
+td.checkbox-div {
+  text-align: center;
+}

@@ -1,0 +1,28 @@
+.skeleton-loader {
+  width: 80%;
+  padding-top: 20px;
+  margin: auto;
+  margin-top: 40px;
+  max-width: 1200px;
+}
+
+.skeleton-loader table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.skeleton-loader th,
+.skeleton-loader td {
+  padding: 8px;
+  text-align: left;
+}
+.skeleton-buttons {
+  display: flex;
+  justify-content: flex-end;
+  /* width: 20%; */
+  margin-top: 20px;
+}
+
+.skeleton-button {
+  margin-right: 10px;
+}

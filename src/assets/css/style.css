@@ -1,0 +1,24 @@
+/* <!-- ANIMATE.CSS--> */
+@import url('../vendor/animate.css/animate.min.css');
+/* <!-- WHIRL (spinners)--> */
+@import url('../vendor/whirl/dist/whirl.css');
+
+/* <!-- CHOSEN--> */
+
+@import url('../vendor/chosen_v1.2.0/chosen.min.css');
+
+/* <!-- Bootstrap Select --> */
+@import url('../css/bootstrap-select/bootstrap-select.min.css');
+
+@import url('../css/datepicker.css');
+
+@import url('https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css');
+
+/* <!-- =============== APP STYLES ===============--> */
+
+@import url('../css/select2.min.css');
+
+@import url('../vendor/datatable-bootstrap/css/dataTables.responsive.css');
+@import url('../vendor/datatable-bootstrap/css/dataTables.bootstrap.css');
+
+@import url('../css/database.css');

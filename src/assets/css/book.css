@@ -1,0 +1,130 @@
+/* INCLUDE THE ABOVE IN YOUR HEAD TAG  */
+
+.tree,
+.tree ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tree ul {
+  margin-left: 1em;
+  position: relative;
+}
+
+.tree ul ul {
+  margin-left: 0.5em;
+}
+
+.tree ul:before {
+  content: '';
+  display: block;
+  width: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-left: 1px solid;
+}
+
+.tree li {
+  margin: 0;
+  padding: 0 1em;
+  line-height: 2em;
+  color: #333;
+  /* font-weight: 700; */
+  position: relative;
+  cursor: pointer;
+}
+.tree li:hover {
+  color: #000;
+}
+
+.tree ul li:before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 0;
+  border-top: 1px solid;
+  margin-top: -1px;
+  position: absolute;
+  top: 1em;
+  left: 0;
+}
+
+.tree ul li:last-child:before {
+  background: #fff;
+  height: auto;
+  top: 1em;
+  bottom: 0;
+}
+
+.indicator {
+  margin-right: 5px;
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50px;
+  background: #4266b2;
+  font-size: 10px;
+}
+
+.tree li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.tree li button,
+.tree li button:active,
+.tree li button:focus {
+  text-decoration: none;
+  color: #333;
+  border: none;
+  background: transparent;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  outline: 0;
+}
+
+.account-div .tree {
+  padding-top: 0px;
+}
+.book_structure {
+  margin: 0px;
+}
+.book-structure-main-div {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+.account-main-div .table-main-div {
+  padding-top: 40px;
+}
+.account-main-div .table-main-div tr td:last-child {
+  text-align: right;
+}
+.account-main-div .total-div {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+.account-main-div .total-div .text {
+  font-weight: 700;
+  color: #000;
+}
+.account-main-div .total-div .total-amount {
+  font-weight: 700;
+  color: #000;
+}
+.account-main-div .back-button {
+  float: right;
+  padding-top: 40px;
+}

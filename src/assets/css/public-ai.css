@@ -1,0 +1,10 @@
+div#public-ai-panel {
+  min-height: 600px;
+}
+
+#public-ai-panel .panel-body.panel-collapse.collapse.in {
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

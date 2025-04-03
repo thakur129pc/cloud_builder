@@ -1,0 +1,3549 @@
+{
+  "register": {
+    "work_email": "abdur@rokket.ai",
+    "password": "ED23r34@eaf!@fsaa.",
+    "response": {
+      "status": "success",
+      "message": "User registered successfully",
+      "data": {
+        "user_confirmed": false,
+        "code_delivery_details": {
+          "Destination": "a***@r***",
+          "DeliveryMedium": "EMAIL",
+          "AttributeName": "email"
+        },
+        "user_sub": "f4286498-f0b1-703b-4456-2031e00dd07d"
+      },
+      "code": 200
+    }
+  },
+  "login": {
+    "status": "success",
+    "message": "User logged in successfully",
+    "data": {
+      "access_token": "eyJraWQiOiI1YXFzM0lYeVNsYnZWYlwvY2N0VlNUTXVxdmlYN01xN3c0Q1grNCtmSllhND0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI4NGM4ZTRmOC04MDgxLTcwYzAtNzAzNi05NTJkNTdkNzk4YjIiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9XU3RYeDRaZUsiLCJjbGllbnRfaWQiOiI2cjc1N2E4OHRnb3A2MzUzdW91N3N1YjV1NiIsIm9yaWdpbl9qdGkiOiI3MDU0MGY3ZS0yNTJjLTRlNjEtYjE3MS0zZDYzZTY1MTRjYWUiLCJldmVudF9pZCI6ImE5MzNmOTIxLTVkOTAtNDliMC1iMDU2LTczZjQ5M2QwNjRjNCIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE3MjE4MjMyNTEsImV4cCI6MTcyMTgyNjg1MCwiaWF0IjoxNzIxODIzMjUxLCJqdGkiOiJkY2QzNzg0My04NDA0LTQxOGItYjE5MS1kY2IzYTgzZjE0MjkiLCJ1c2VybmFtZSI6Ijg0YzhlNGY4LTgwODEtNzBjMC03MDM2LTk1MmQ1N2Q3OThiMiJ9.TlkxclutbBc0nqLxV7n0BzR6dsQvP5Vmhi_G0RWaENXeDqCSrPelJqYmSsnJXZny78kvNXtaZ_IyzG3HYYcYvOMe6a7siwi6_ylaMiDuc8_D1dFNuvQDMt5znig28CIr_qbvRobwNIpwz0nwetpO2rtr0-PWE1bwXbrGaACm-PTy2So-0s5esV1I-jC7OxQmLeVXrVMEOQIlahGIWInAsbN5wuL_3ok2ZuXdV1HiYMEh90VIDzKLjx1wdoLX6n-cCCrHRR77XnanDrvGlvppebMZzBY5TFSDyFhJMRbLoIWENXtPD5ipCO-k5I9mZLyhOmkocqh7_e7iHTdm9f99og",
+      "id_token": "eyJraWQiOiJQWmNHd0NEbTlRM0ZIOVYxT2F3Q3hwNHQ2NDRYTlYwK1MycXdyMFliY3hZPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI4NGM4ZTRmOC04MDgxLTcwYzAtNzAzNi05NTJkNTdkNzk4YjIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tXC91cy1lYXN0LTFfV1N0WHg0WmVLIiwiY29nbml0bzp1c2VybmFtZSI6Ijg0YzhlNGY4LTgwODEtNzBjMC03MDM2LTk1MmQ1N2Q3OThiMiIsIm9yaWdpbl9qdGkiOiI3MDU0MGY3ZS0yNTJjLTRlNjEtYjE3MS0zZDYzZTY1MTRjYWUiLCJhdWQiOiI2cjc1N2E4OHRnb3A2MzUzdW91N3N1YjV1NiIsImV2ZW50X2lkIjoiYTkzM2Y5MjEtNWQ5MC00OWIwLWIwNTYtNzNmNDkzZDA2NGM0IiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE3MjE4MjMyNTEsImV4cCI6MTcyMTgyNjg1MCwiaWF0IjoxNzIxODIzMjUxLCJqdGkiOiJkZjQwOTgyNy05NzhhLTQ0NjUtODIwMi0xODgxOTU5MGRjYTUiLCJlbWFpbCI6Im1pbnVAeW9wbWFpbC5jb20ifQ.H1U0aFSucVP77sw6eTGmt1xf0ayJ_PUyZs6Pi0edrWvmMmegpeV5L4dJtxnU-8FRFLevkq0ZUtsxETpBaNN-29Re9MsxT6aNRWbScWfY-W87hjt4-RyUxCfYJtcFXSigVIMPA7JM3FUD526h_biHk8DxygzuJrSofSGg6w6gS7GjuGdoEj4Jm3SwcM69R-T9C2X6EP_rw1MskC6r-8fo7PZMqIJfRnwNtJywqfz8YLh2h92G2LcjfIYr6Tl7RwB6X541EJWCty1BmwTChewSqB5clW0nr327129d_Qdc4TSrh18FhVLixugcLvVyz5RyTqYzo5ONQb-EIS85ko_paw",
+      "refresh_token": "eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.YZ9u5EWUp5g_fSCteSImYu9Xr-ALrxpUvB1TPj5B__zMHX1YjcUqo04aH8LuVzeJhsiBHdLqh66jJX1HeyOsQUV9zsDk9ve5YqrOqeYRd3TK3F4qWGET_7q6HcEgDpgZBUBhjH6YFAhaXxUXjW_R1_J2Od7gY5sPmonxQj8mbx_g7UqWbUUvzaXGRkHva5EBd6JV7ejXINcFrXWEFfANj1pXqYUdrovn_XMrl_rwM97GG7r_Z_o_ZQlMMi5ZPQIn6vhoJSluBQXHYF9Uwx1fZyDk30CP3r6Z7rfjbkToeXkckA6y-m0brVfMpaG2O4NLQZPmCdwHBsU_jEV1WBBR5w.p-BbNVgrKCHefUBy.NxmxHzUP-1231VLwpAm7QKi6tC7uQ1_N9ORz0L-yXwnsqopFkfGQMSDJWcqkLLNQSJLfLZZ9UMg472DF3gX0PADKOu9g_jImoe9LDypGqZI--982XXTsojTY2J_KvNiJA84RGruJ3XdY8mPXiaYYDX0xuNeg-3c_jMdxcdhKmUK-EiFp5d01qX9jZbfXlesWl0E6BnN4oHbXw56cJiTYxeDh_0nBtmne6daGXgMrVGshX25qmTYuLm1JqHV-Fb8bHl9Lo4kycTjRPHHNkVQPqm7WJARax18-0q-D7QDce4ITQKxKf13tQP6Wo40dQNCwCciwK8TmKz3EZkpqZiJwqXvyVXI7diytatsY_fqxOuRyoouMVB3nnF8OCGqw1tDof2cMzqG-kv2ovUysQIZpjzcJw5EeT0DYA8luZ2W4XKQGPOIM9yWrmIp_PCnQUuzdkJIOmAZd3GIZ0JYSxter9ruYfVrtxUVNRImJCYTpw2ZUenee5du4oLn5_z4FHjmWLjfhDyMvJbreixFdLtR446Vx3VGoiHcPLDdgY9I4566rMevxWmGJVTvmCD5VsshAU45U6KFTfvXbV_7XM2eUdIbyd1bv0QgS4kKWqaPwNrShmDsBfPbxcLsqEuUYi-SoEUlSe1Arwt-0RbhBgWUeYBrt-Y1qgBA0EGA04jRsu1RfjH-QuJVK7rET4RGdCwX7QfaKj7vr0KqjAT9myRtRkmQaBQ5yEUUEIpvN6mQeR-G0ARYn0DS3W8OsqMu9t4XFY9vHGQ3PEXMXQvbSXeH7L2vO5TFw2n_DWZkcaCSUSrWkXmO1ollbaLwXNwARURyNrfzuv0p4ROEnpRn-FbOOZOvMphXOQWqJuYdzHJv-Md8FnrJtRXuJp9qycNrmYRkAVbXMfGMkOYStCQVY-o5b4l2k3srp30mfpKBZwCiiMtH9Uq1Q1wjsrCcZ5chp1pCvNIYGen5nmFLuYhg5Q_OKEciOUwvGyBn2n6XwopN2rcbOKbPwcCmggeGymefl-noPfgoSNeHmDGuSRoEWGenB3zeaN2mMl0yksioGJep675QwaMyOgdGlaFpmB-jqQG_y8n1yQmyCfvJXqm68CgZM9sX1xCcigO_qcEVS3zsh_yxATFO1lwxx7HpL4F4_RTZvwklYorBepAzAytt6JYRLBR-ujWGHuVZIivJ0idxW0tzxu47VjHqSuoEa47r0LpVyAeyUrtvT18bWeAlGkg31bgNjqBuZ0_nFRwOx0wcXDRdX6w_30jAwc98Wl9T8yoCGf6D490WMRo3b89V-uelsw7RqnGodQQzPPVOIBRRO7Mjm2nOheCnml2TweQ.za_eHvU27o6_6pued72k-w"
+    },
+    "code": 200
+  },
+  "task_types": {
+    "status": "success",
+    "message": "Successfully fetched task types",
+    "data": [
+      {
+        "group_id": 1,
+        "group_name": "Text Analysis",
+        "llm_capabilities": [
+          {
+            "llm_capability_id": 1,
+            "capability_name": "Text-Focused LLMs",
+            "llm_capability_options": [
+              {
+                "option_id": 1,
+                "option_name": "Generate Contextual Text"
+              },
+              {
+                "option_id": 2,
+                "option_name": "Accurate Language Translation"
+              },
+              {
+                "option_id": 3,
+                "option_name": "Summarize Documents"
+              }
+            ]
+          },
+          {
+            "llm_capability_id": 2,
+            "capability_name": "Document Analysis LLMs",
+            "llm_capability_options": [
+              {
+                "option_id": 4,
+                "option_name": "Extract Key Information"
+              },
+              {
+                "option_id": 5,
+                "option_name": "Document Categorization"
+              },
+              {
+                "option_id": 6,
+                "option_name": "Analyze Document Layout"
+              }
+            ]
+          },
+          {
+            "llm_capability_id": 3,
+            "capability_name": "Q&A-focused LLMs",
+            "llm_capability_options": [
+              {
+                "option_id": 7,
+                "option_name": "Answer and Explain"
+              },
+              {
+                "option_id": 8,
+                "option_name": "Clarify Complex Topics"
+              },
+              {
+                "option_id": 9,
+                "option_name": "Solve Specific Queries"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "group_id": 2,
+        "group_name": "Code Generations",
+        "llm_capabilities": [
+          {
+            "llm_capability_id": 4,
+            "capability_name": "SQL Generation LLMs",
+            "llm_capability_options": [
+              {
+                "option_id": 10,
+                "option_name": "Query Creation"
+              },
+              {
+                "option_id": 11,
+                "option_name": "Query Optimization"
+              },
+              {
+                "option_id": 12,
+                "option_name": "Error Detection"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "code": 200
+  },
+  "confirm": {
+    "status": "success",
+    "message": "User account confirmed successfully",
+    "data": {
+      "ResponseMetadata": {
+        "RequestId": "9f33ff9d-6ea5-449e-93ab-40e4e0ffa8a2",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+          "date": "Mon, 15 Jul 2024 13:01:32 GMT",
+          "content-type": "application/x-amz-json-1.1",
+          "content-length": "2",
+          "connection": "keep-alive",
+          "x-amzn-requestid": "9f33ff9d-6ea5-449e-93ab-40e4e0ffa8a2"
+        },
+        "RetryAttempts": 0
+      }
+    },
+    "code": 200
+  },
+  "forgot-password": {
+    "status": "success",
+    "message": "Password reset initiated. Please check your email for the verification code.",
+    "data": {
+      "code_delivery_details": {
+        "Destination": "a***@y***",
+        "DeliveryMedium": "EMAIL",
+        "AttributeName": "email"
+      }
+    },
+    "code": 200
+  },
+  "reset-password": {
+    "status": "success",
+    "message": "Password reset successfully.",
+    "data": null,
+    "code": 200
+  },
+  "refresh-token": {
+    "status": "success",
+    "message": "Token refreshed successfully",
+    "data": {
+      "access_token": "eyJraWQiOiI1YXFzM0lYeVNsYnZWYlwvY2N0VlNUTXVxdmlYN01xN3c0Q1grNCtmSllhND0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI4NGM4ZTRmOC04MDgxLTcwYzAtNzAzNi05NTJkNTdkNzk4YjIiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9XU3RYeDRaZUsiLCJjbGllbnRfaWQiOiI2cjc1N2E4OHRnb3A2MzUzdW91N3N1YjV1NiIsIm9yaWdpbl9qdGkiOiJiMzBkMTcyNC02NDI3LTQxNWQtOWRlNC00N2M4NGQ1NWZhZDIiLCJldmVudF9pZCI6ImUxYmUxZThlLTdmNjgtNDZjZS04YjdmLTEyNzlmZGRlZWY0NCIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE3MjE3MzI4NjMsImV4cCI6MTcyMTczNjY3NywiaWF0IjoxNzIxNzMzMDc3LCJqdGkiOiIwZjA4MTE1MS02MTFhLTQxMzUtOTNjNy1mYzM2YjA3NzhmMjgiLCJ1c2VybmFtZSI6Ijg0YzhlNGY4LTgwODEtNzBjMC03MDM2LTk1MmQ1N2Q3OThiMiJ9.S-mVaHS7eVrQ33TnBkiyPGT0FupLJG3Hjv6CcvWm7bEJ04DQQ0_zmVIbMRZ_nTxq-cwLOK5PVERJNVoDUoegC6T7aQGUOrk61iSZjxs0l_uxwx6W-ZCYjUGOvK68p1mab8xHMMGRwBuW9RTxsKKtJtOCUuC90K4vsZYBNXAj2EPXDLu5Pp5DqIYWrgHRLKK3KU1G4jOe8H0Yzqfl1mwaDOcHwCgh7f2sSR3CjK2YcY32uSMNA7QPDSg6Sx07ksvLADRUBfTLYW_UTksJ9To4WxmI51HD-2Wea3VjEKxRE9BEPmXsaC1d0N3AYtaTPUDRtyh57A4Fh5zGBBlahf1uEQ",
+      "id_token": "eyJraWQiOiJQWmNHd0NEbTlRM0ZIOVYxT2F3Q3hwNHQ2NDRYTlYwK1MycXdyMFliY3hZPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI4NGM4ZTRmOC04MDgxLTcwYzAtNzAzNi05NTJkNTdkNzk4YjIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tXC91cy1lYXN0LTFfV1N0WHg0WmVLIiwiY29nbml0bzp1c2VybmFtZSI6Ijg0YzhlNGY4LTgwODEtNzBjMC03MDM2LTk1MmQ1N2Q3OThiMiIsIm9yaWdpbl9qdGkiOiJiMzBkMTcyNC02NDI3LTQxNWQtOWRlNC00N2M4NGQ1NWZhZDIiLCJhdWQiOiI2cjc1N2E4OHRnb3A2MzUzdW91N3N1YjV1NiIsImV2ZW50X2lkIjoiZTFiZTFlOGUtN2Y2OC00NmNlLThiN2YtMTI3OWZkZGVlZjQ0IiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE3MjE3MzI4NjMsImV4cCI6MTcyMTczNjY3NywiaWF0IjoxNzIxNzMzMDc3LCJqdGkiOiJiZDUxZWQ1Mi0zNjkwLTQ2YWMtYTA4Yi05OTAyYWMzYWZlN2MiLCJlbWFpbCI6Im1pbnVAeW9wbWFpbC5jb20ifQ.GgBkJtFeN1KqCVMM32efMzMjBBkeR3pvr00sZtuGjHvy9C2JHb8YxmHqK9NH18XdQsCdo_RW0l5x36sqdmDSZM59_YEbi167siC1Rk4uXGRYVrhFJ9GvilG9vtTrBgmG-iXQ0I3qCtxQXxvKaBu3RosqSEJGByoZVm6x9T6t0qBrPh4nKSx_VCVpqLTyOIda1IojwpAK7Q11m1am0wXbpnW7CFNroqCsYwhwpYjQQKs7IwBHRWbjrMGaUhJk7yVJqQ4IkiKvplQKBTAis31A4K9zHwjnA4lPPr6-_tk7oQrR-AWFQv_2M7pPm3zvLXPcVZkKO9XVMKH9IONRS6G1Vg"
+    },
+    "code": 200
+  },
+  "toolkit": {
+    "status": "success",
+    "message": "Successfully fetched toolkit",
+    "data": [
+      {
+        "toolkit_id": 1,
+        "toolkit_name": "Guardrails",
+        "toolkit_options": [
+          {
+            "toolkitoption_id": 1,
+            "toolkitoption_name": "Obscenity"
+          },
+          {
+            "toolkitoption_id": 2,
+            "toolkitoption_name": "Personally Identifiable information"
+          },
+          {
+            "toolkitoption_id": 3,
+            "toolkitoption_name": "Custom"
+          }
+        ]
+      },
+      {
+        "toolkit_id": 2,
+        "toolkit_name": "Prompt Management",
+        "toolkit_options": [
+          {
+            "toolkitoption_id": 5,
+            "toolkitoption_name": "Prompt Grouping"
+          },
+          {
+            "toolkitoption_id": 4,
+            "toolkitoption_name": "Similarity"
+          }
+        ]
+      },
+      {
+        "toolkit_id": 3,
+        "toolkit_name": "Chat Bot",
+        "toolkit_options": [
+          {
+            "toolkitoption_id": 6,
+            "toolkitoption_name": "Chatbot"
+          },
+          {
+            "toolkitoption_id": 7,
+            "toolkitoption_name": "Enterprise Chat"
+          }
+        ]
+      }
+    ],
+    "code": 200
+  },
+  "models": {
+    "status": "success",
+    "message": "Successfully fetched models",
+    "data": [
+      {
+        "llm_family_id": 1,
+        "llm_family": "Mistral-7b-Instruct-v0.2",
+        "attributes": [
+          {
+            "attribute_name": "context_tokens",
+            "attribute_value": 32768
+          },
+          {
+            "attribute_name": "model_size",
+            "attribute_value": {
+              "uom": "bit",
+              "value": 4
+            }
+          },
+          {
+            "attribute_name": "parameters",
+            "attribute_value": {
+              "uom": "Billion",
+              "value": "7"
+            }
+          }
+        ],
+        "llm_variants": [
+          {
+            "llm_id": 1,
+            "llm_name": "Mistral-7b-instruct-v0.2-32k-q4",
+            "llm_family": "Mistral-7b-Instruct-v0.2",
+            "llm_base": false,
+            "quantization_bit": 4,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 4,
+                "capability_name": "SQL Generation LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g4dn.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 383.98
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 4607.76
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 12.62
+                }
+              },
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          },
+          {
+            "llm_id": 2,
+            "llm_name": "Mistral-7b-instruct-v0.2-32k-q8",
+            "llm_family": "Mistral-7b-Instruct-v0.2",
+            "llm_base": false,
+            "quantization_bit": 8,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 4,
+                "capability_name": "SQL Generation LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          },
+          {
+            "llm_id": 3,
+            "llm_name": "Mistral-7b-instruct-v0.2-32k-q16",
+            "llm_family": "Mistral-7b-Instruct-v0.2",
+            "llm_base": false,
+            "quantization_bit": 16,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 4,
+                "capability_name": "SQL Generation LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "llm_family_id": 2,
+        "llm_family": "CodeLlama-7b-Instruct",
+        "attributes": [
+          {
+            "attribute_name": "context_tokens",
+            "attribute_value": 16384
+          },
+          {
+            "attribute_name": "model_size",
+            "attribute_value": {
+              "uom": "bit",
+              "value": 4
+            }
+          },
+          {
+            "attribute_name": "parameters",
+            "attribute_value": {
+              "uom": "Billion",
+              "value": "7"
+            }
+          }
+        ],
+        "llm_variants": [
+          {
+            "llm_id": 4,
+            "llm_name": "CodeLlama-7b-Instruct-16k-q4",
+            "llm_family": "CodeLlama-7b-Instruct",
+            "llm_base": false,
+            "quantization_bit": 4,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 4,
+                "capability_name": "SQL Generation LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g4dn.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 383.98
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 4607.76
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 12.62
+                }
+              },
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          },
+          {
+            "llm_id": 5,
+            "llm_name": "CodeLlama-7b-Instruct-16k-q8",
+            "llm_family": "CodeLlama-7b-Instruct",
+            "llm_base": false,
+            "quantization_bit": 8,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 4,
+                "capability_name": "SQL Generation LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g4dn.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 383.98
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 4607.76
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 12.62
+                }
+              }
+            ]
+          },
+          {
+            "llm_id": 6,
+            "llm_name": "CodeLlama-7b-Instruct-15k-q16",
+            "llm_family": "CodeLlama-7b-Instruct",
+            "llm_base": false,
+            "quantization_bit": 16,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 4,
+                "capability_name": "SQL Generation LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g4dn.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 383.98
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 4607.76
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 12.62
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "llm_family_id": 3,
+        "llm_family": "CodeLlama-13b-Instruct",
+        "attributes": [
+          {
+            "attribute_name": "context_tokens",
+            "attribute_value": 16000
+          },
+          {
+            "attribute_name": "model_size",
+            "attribute_value": {
+              "uom": "bit",
+              "value": 4
+            }
+          },
+          {
+            "attribute_name": "parameters",
+            "attribute_value": {
+              "uom": "Billion",
+              "value": "13"
+            }
+          }
+        ],
+        "llm_variants": [
+          {
+            "llm_id": 7,
+            "llm_name": "CodeLlama-13b-Instruct-15k-q16",
+            "llm_family": "CodeLlama-13b-Instruct",
+            "llm_base": false,
+            "quantization_bit": 16,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 4,
+                "capability_name": "SQL Generation LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g4dn.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 383.98
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 4607.76
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 12.62
+                }
+              },
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "llm_family_id": 4,
+        "llm_family": "Microsoft-phi-2",
+        "attributes": [
+          {
+            "attribute_name": "context_tokens",
+            "attribute_value": 2048
+          },
+          {
+            "attribute_name": "model_size",
+            "attribute_value": {
+              "uom": "bit",
+              "value": 8
+            }
+          },
+          {
+            "attribute_name": "parameters",
+            "attribute_value": {
+              "uom": "Billion",
+              "value": "3.7"
+            }
+          }
+        ],
+        "llm_variants": [
+          {
+            "llm_id": 8,
+            "llm_name": "Microsoft-phi-2-2k-q8",
+            "llm_family": "Microsoft-phi-2",
+            "llm_base": false,
+            "quantization_bit": 8,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 3,
+                "capability_name": "Q&A-focused LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g4dn.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 383.98
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 4607.76
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 12.62
+                }
+              },
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          },
+          {
+            "llm_id": 9,
+            "llm_name": "Microsoft-phi-2-2k-q16",
+            "llm_family": "Microsoft-phi-2",
+            "llm_base": false,
+            "quantization_bit": 16,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 3,
+                "capability_name": "Q&A-focused LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g4dn.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 383.98
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 4607.76
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 12.62
+                }
+              },
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "llm_family_id": 5,
+        "llm_family": "MPT-7b-8k-Instruct",
+        "attributes": [
+          {
+            "attribute_name": "context_tokens",
+            "attribute_value": 8192
+          },
+          {
+            "attribute_name": "model_size",
+            "attribute_value": {
+              "uom": "bit",
+              "value": 8
+            }
+          },
+          {
+            "attribute_name": "parameters",
+            "attribute_value": {
+              "uom": "Billion",
+              "value": "7"
+            }
+          }
+        ],
+        "llm_variants": [
+          {
+            "llm_id": 10,
+            "llm_name": "MPT-7b-8k-Instruct-8k-q8",
+            "llm_family": "MPT-7b-8k-Instruct",
+            "llm_base": false,
+            "quantization_bit": 8,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 3,
+                "capability_name": "Q&A-focused LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          },
+          {
+            "llm_id": 11,
+            "llm_name": "MPT-7b-8k-Instruct-7k-q16",
+            "llm_family": "MPT-7b-8k-Instruct",
+            "llm_base": false,
+            "quantization_bit": 16,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 3,
+                "capability_name": "Q&A-focused LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "llm_family_id": 6,
+        "llm_family": "Falcon-7b-Instruct",
+        "attributes": [
+          {
+            "attribute_name": "context_tokens",
+            "attribute_value": 2048
+          },
+          {
+            "attribute_name": "model_size",
+            "attribute_value": {
+              "uom": "bit",
+              "value": 8
+            }
+          },
+          {
+            "attribute_name": "parameters",
+            "attribute_value": {
+              "uom": "Billion",
+              "value": "7"
+            }
+          }
+        ],
+        "llm_variants": [
+          {
+            "llm_id": 12,
+            "llm_name": "Falcon-7b-Instruct-2k-q8",
+            "llm_family": "Falcon-7b-Instruct",
+            "llm_base": false,
+            "quantization_bit": 8,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 4,
+                "capability_name": "SQL Generation LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          },
+          {
+            "llm_id": 13,
+            "llm_name": "Falcon-7b-Instruct-2k-q16",
+            "llm_family": "Falcon-7b-Instruct",
+            "llm_base": false,
+            "quantization_bit": 16,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 4,
+                "capability_name": "SQL Generation LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "llm_family_id": 7,
+        "llm_family": "Mistral-7b-v0.1",
+        "attributes": [
+          {
+            "attribute_name": "context_tokens",
+            "attribute_value": 32768
+          },
+          {
+            "attribute_name": "model_size",
+            "attribute_value": {
+              "uom": "bit",
+              "value": 4
+            }
+          },
+          {
+            "attribute_name": "parameters",
+            "attribute_value": {
+              "uom": "Billion",
+              "value": "7"
+            }
+          }
+        ],
+        "llm_variants": [
+          {
+            "llm_id": 14,
+            "llm_name": "Mistral-7b-v0.1-32k-q4",
+            "llm_family": "Mistral-7b-v0.1",
+            "llm_base": false,
+            "quantization_bit": 4,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 2,
+                "capability_name": "Document Analysis LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g4dn.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 383.98
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 4607.76
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 12.62
+                }
+              }
+            ]
+          },
+          {
+            "llm_id": 15,
+            "llm_name": "Mistral-7b-v0.1-32k-q8",
+            "llm_family": "Mistral-7b-v0.1",
+            "llm_base": false,
+            "quantization_bit": 8,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 2,
+                "capability_name": "Document Analysis LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          },
+          {
+            "llm_id": 16,
+            "llm_name": "Mistral-7b-v0.1-32k-q16",
+            "llm_family": "Mistral-7b-v0.1",
+            "llm_base": false,
+            "quantization_bit": 16,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 2,
+                "capability_name": "Document Analysis LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "llm_family_id": 8,
+        "llm_family": "Yi-6B-Chat-4bits",
+        "attributes": [
+          {
+            "attribute_name": "context_tokens",
+            "attribute_value": 100000
+          },
+          {
+            "attribute_name": "model_size",
+            "attribute_value": {
+              "uom": "bit",
+              "value": 4
+            }
+          },
+          {
+            "attribute_name": "parameters",
+            "attribute_value": {
+              "uom": "Billion",
+              "value": "6"
+            }
+          }
+        ],
+        "llm_variants": [
+          {
+            "llm_id": 17,
+            "llm_name": "Yi-6B-Chat-4 bits-100k-q4",
+            "llm_family": "Yi-6B-Chat-4bits",
+            "llm_base": false,
+            "quantization_bit": 4,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 4,
+                "capability_name": "SQL Generation LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "llm_family_id": 9,
+        "llm_family": "Qwen-7B-Chat",
+        "attributes": [
+          {
+            "attribute_name": "context_tokens",
+            "attribute_value": 32768
+          },
+          {
+            "attribute_name": "model_size",
+            "attribute_value": {
+              "uom": "bit",
+              "value": 4
+            }
+          },
+          {
+            "attribute_name": "parameters",
+            "attribute_value": {
+              "uom": "Billion",
+              "value": "7"
+            }
+          }
+        ],
+        "llm_variants": [
+          {
+            "llm_id": 18,
+            "llm_name": "Qwen-7B-Chat-32k-q4",
+            "llm_family": "Qwen-7B-Chat",
+            "llm_base": false,
+            "quantization_bit": 4,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 4,
+                "capability_name": "SQL Generation LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          },
+          {
+            "llm_id": 19,
+            "llm_name": "Qwen-7B-Chat-32k-q8",
+            "llm_family": "Qwen-7B-Chat",
+            "llm_base": false,
+            "quantization_bit": 8,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 4,
+                "capability_name": "SQL Generation LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          },
+          {
+            "llm_id": 20,
+            "llm_name": "Qwen-7B-Chat-32k-q16",
+            "llm_family": "Qwen-7B-Chat",
+            "llm_base": false,
+            "quantization_bit": 16,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 4,
+                "capability_name": "SQL Generation LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "llm_family_id": 10,
+        "llm_family": "gemma-2b",
+        "attributes": [
+          {
+            "attribute_name": "context_tokens",
+            "attribute_value": 8192
+          },
+          {
+            "attribute_name": "model_size",
+            "attribute_value": {
+              "uom": "bit",
+              "value": 8
+            }
+          },
+          {
+            "attribute_name": "parameters",
+            "attribute_value": {
+              "uom": "Billion",
+              "value": "2"
+            }
+          }
+        ],
+        "llm_variants": [
+          {
+            "llm_id": 21,
+            "llm_name": "Gemma-2b-it-8k-q8",
+            "llm_family": "gemma-2b",
+            "llm_base": false,
+            "quantization_bit": 8,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 2,
+                "capability_name": "Document Analysis LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          },
+          {
+            "llm_id": 22,
+            "llm_name": "Gemma-2b-it-8k-q16",
+            "llm_family": "gemma-2b",
+            "llm_base": false,
+            "quantization_bit": 16,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 2,
+                "capability_name": "Document Analysis LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "llm_family_id": 11,
+        "llm_family": "gemma-7b",
+        "attributes": [
+          {
+            "attribute_name": "context_tokens",
+            "attribute_value": 8192
+          },
+          {
+            "attribute_name": "model_size",
+            "attribute_value": {
+              "uom": "bit",
+              "value": 8
+            }
+          },
+          {
+            "attribute_name": "parameters",
+            "attribute_value": {
+              "uom": "Billion",
+              "value": "7"
+            }
+          }
+        ],
+        "llm_variants": [
+          {
+            "llm_id": 23,
+            "llm_name": "Gemma-7b-it-8k-q8",
+            "llm_family": "gemma-7b",
+            "llm_base": false,
+            "quantization_bit": 8,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 4,
+                "capability_name": "SQL Generation LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          },
+          {
+            "llm_id": 24,
+            "llm_name": "Gemma-7b-it-8k-q16",
+            "llm_family": "gemma-7b",
+            "llm_base": false,
+            "quantization_bit": 16,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 4,
+                "capability_name": "SQL Generation LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "llm_family_id": 12,
+        "llm_family": "stable-code-instruct-3b",
+        "attributes": [
+          {
+            "attribute_name": "context_tokens",
+            "attribute_value": 16384
+          },
+          {
+            "attribute_name": "model_size",
+            "attribute_value": {
+              "uom": "bit",
+              "value": 8
+            }
+          },
+          {
+            "attribute_name": "parameters",
+            "attribute_value": {
+              "uom": "Billion",
+              "value": "3"
+            }
+          }
+        ],
+        "llm_variants": [
+          {
+            "llm_id": 25,
+            "llm_name": "Stable-Code-Instruct-3b-16k-q8",
+            "llm_family": "stable-code-instruct-3b",
+            "llm_base": false,
+            "quantization_bit": 8,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 4,
+                "capability_name": "SQL Generation LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          },
+          {
+            "llm_id": 26,
+            "llm_name": "Stable-Code-Instruct-3b-16k-q16",
+            "llm_family": "stable-code-instruct-3b",
+            "llm_base": false,
+            "quantization_bit": 16,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 4,
+                "capability_name": "SQL Generation LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "llm_family_id": 13,
+        "llm_family": "starcoder2-3b",
+        "attributes": [
+          {
+            "attribute_name": "context_tokens",
+            "attribute_value": 8000
+          },
+          {
+            "attribute_name": "model_size",
+            "attribute_value": {
+              "uom": "bit",
+              "value": 8
+            }
+          },
+          {
+            "attribute_name": "parameters",
+            "attribute_value": {
+              "uom": "Billion",
+              "value": "3"
+            }
+          }
+        ],
+        "llm_variants": [
+          {
+            "llm_id": 27,
+            "llm_name": "StarCoder2-3b-8k-q8",
+            "llm_family": "starcoder2-3b",
+            "llm_base": false,
+            "quantization_bit": 8,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 1,
+                "capability_name": "Text-Focused LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          },
+          {
+            "llm_id": 28,
+            "llm_name": "StarCoder2-3b-8k-q16",
+            "llm_family": "starcoder2-3b",
+            "llm_base": false,
+            "quantization_bit": 16,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 1,
+                "capability_name": "Text-Focused LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "llm_family_id": 14,
+        "llm_family": "starcoder2-7b",
+        "attributes": [
+          {
+            "attribute_name": "context_tokens",
+            "attribute_value": 8000
+          },
+          {
+            "attribute_name": "model_size",
+            "attribute_value": {
+              "uom": "bit",
+              "value": 8
+            }
+          },
+          {
+            "attribute_name": "parameters",
+            "attribute_value": {
+              "uom": "Billion",
+              "value": "7"
+            }
+          }
+        ],
+        "llm_variants": [
+          {
+            "llm_id": 29,
+            "llm_name": "StarCoder2-7b-8k-q8",
+            "llm_family": "starcoder2-7b",
+            "llm_base": false,
+            "quantization_bit": 8,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 4,
+                "capability_name": "SQL Generation LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          },
+          {
+            "llm_id": 30,
+            "llm_name": "StarCoder2-7b-8k-q16",
+            "llm_family": "starcoder2-7b",
+            "llm_base": false,
+            "quantization_bit": 16,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 4,
+                "capability_name": "SQL Generation LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "llm_family_id": 15,
+        "llm_family": "LLaVA",
+        "attributes": [
+          {
+            "attribute_name": "context_tokens",
+            "attribute_value": 0
+          },
+          {
+            "attribute_name": "model_size",
+            "attribute_value": {
+              "uom": "bit",
+              "value": 9
+            }
+          },
+          {
+            "attribute_name": "parameters",
+            "attribute_value": {
+              "uom": "Billion",
+              "value": "13"
+            }
+          }
+        ],
+        "llm_variants": [
+          {
+            "llm_id": 31,
+            "llm_name": "LLaVA",
+            "llm_family": "LLaVA",
+            "llm_base": false,
+            "quantization_bit": null,
+            "inference_method": "AWQ",
+            "latency": null,
+            "throughput": null,
+            "llm_capability": [
+              {
+                "capability_id": 1,
+                "capability_name": "Text-Focused LLMs"
+              }
+            ],
+            "target_cloud": [
+              {
+                "cloud_id": 1,
+                "cloud_name": "AWS",
+                "description": "g5.xlarge",
+                "monthly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 734.38
+                },
+                "yearly_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 8812.56
+                },
+                "daily_cost": {
+                  "uom": {
+                    "id": 1,
+                    "name": "USD",
+                    "symbol": "$",
+                    "type": "currency",
+                    "unit": 1
+                  },
+                  "value": 24.14
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "code": 200
+  },
+  "machines": {
+    "status": "success",
+    "message": "Successfully fetched machine types",
+    "data": [
+      {
+        "llm_id": 23,
+        "llm_family_id": 11,
+        "llm_family_name": "gemma-7b",
+        "llm_variant_name": "Gemma-7b-it-8k-q8",
+        "available_machine_types": [
+          {
+            "machine_type_id": 8,
+            "machine_type_name": "g5.xlarge",
+            "pricing": {
+              "monthly_cost": {
+                "uom": {
+                  "id": 1,
+                  "name": "USD",
+                  "symbol": "$",
+                  "type": "currency",
+                  "unit": 1
+                },
+                "value": 734.38
+              },
+              "yearly_cost": {
+                "uom": {
+                  "id": 1,
+                  "name": "USD",
+                  "symbol": "$",
+                  "type": "currency",
+                  "unit": 1
+                },
+                "value": 8812.56
+              },
+              "daily_cost": {
+                "uom": {
+                  "id": 1,
+                  "name": "USD",
+                  "symbol": "$",
+                  "type": "currency",
+                  "unit": 1
+                },
+                "value": 24.14
+              }
+            },
+            "gpu": {
+              "gpu_type": "A10G",
+              "gpu_parameters": {
+                "value": 4,
+                "uom": "GB"
+              }
+            },
+            "vcpu": 4,
+            "memory": {
+              "value": 5,
+              "uom": "GB"
+            },
+            "tps": 10
+          }
+        ]
+      },
+      {
+        "llm_id": 9,
+        "llm_family_id": 4,
+        "llm_family_name": "Microsoft-phi-2",
+        "llm_variant_name": "Microsoft-phi-2-2k-q16",
+        "available_machine_types": [
+          {
+            "machine_type_id": 1,
+            "machine_type_name": "g4dn.xlarge",
+            "pricing": {
+              "monthly_cost": {
+                "uom": {
+                  "id": 1,
+                  "name": "USD",
+                  "symbol": "$",
+                  "type": "currency",
+                  "unit": 1
+                },
+                "value": 383.98
+              },
+              "yearly_cost": {
+                "uom": {
+                  "id": 1,
+                  "name": "USD",
+                  "symbol": "$",
+                  "type": "currency",
+                  "unit": 1
+                },
+                "value": 4607.76
+              },
+              "daily_cost": {
+                "uom": {
+                  "id": 1,
+                  "name": "USD",
+                  "symbol": "$",
+                  "type": "currency",
+                  "unit": 1
+                },
+                "value": 12.62
+              }
+            },
+            "gpu": {
+              "gpu_type": "T4",
+              "gpu_parameters": {
+                "value": 4,
+                "uom": "GB"
+              }
+            },
+            "vcpu": 4,
+            "memory": {
+              "value": 5,
+              "uom": "GB"
+            },
+            "tps": 5
+          },
+          {
+            "machine_type_id": 8,
+            "machine_type_name": "g5.xlarge",
+            "pricing": {
+              "monthly_cost": {
+                "uom": {
+                  "id": 1,
+                  "name": "USD",
+                  "symbol": "$",
+                  "type": "currency",
+                  "unit": 1
+                },
+                "value": 734.38
+              },
+              "yearly_cost": {
+                "uom": {
+                  "id": 1,
+                  "name": "USD",
+                  "symbol": "$",
+                  "type": "currency",
+                  "unit": 1
+                },
+                "value": 8812.56
+              },
+              "daily_cost": {
+                "uom": {
+                  "id": 1,
+                  "name": "USD",
+                  "symbol": "$",
+                  "type": "currency",
+                  "unit": 1
+                },
+                "value": 24.14
+              }
+            },
+            "gpu": {
+              "gpu_type": "A10G",
+              "gpu_parameters": {
+                "value": 4,
+                "uom": "GB"
+              }
+            },
+            "vcpu": 4,
+            "memory": {
+              "value": 5,
+              "uom": "GB"
+            },
+            "tps": 10
+          }
+        ]
+      },
+      {
+        "llm_id": 16,
+        "llm_family_id": 7,
+        "llm_family_name": "Mistral-7b-v0.1",
+        "llm_variant_name": "Mistral-7b-v0.1-32k-q16",
+        "available_machine_types": [
+          {
+            "machine_type_id": 8,
+            "machine_type_name": "g5.xlarge",
+            "pricing": {
+              "monthly_cost": {
+                "uom": {
+                  "id": 1,
+                  "name": "USD",
+                  "symbol": "$",
+                  "type": "currency",
+                  "unit": 1
+                },
+                "value": 734.38
+              },
+              "yearly_cost": {
+                "uom": {
+                  "id": 1,
+                  "name": "USD",
+                  "symbol": "$",
+                  "type": "currency",
+                  "unit": 1
+                },
+                "value": 8812.56
+              },
+              "daily_cost": {
+                "uom": {
+                  "id": 1,
+                  "name": "USD",
+                  "symbol": "$",
+                  "type": "currency",
+                  "unit": 1
+                },
+                "value": 24.14
+              }
+            },
+            "gpu": {
+              "gpu_type": "A10G",
+              "gpu_parameters": {
+                "value": 4,
+                "uom": "GB"
+              }
+            },
+            "vcpu": 4,
+            "memory": {
+              "value": 5,
+              "uom": "GB"
+            },
+            "tps": 10
+          }
+        ]
+      }
+    ],
+    "code": 200
+  },
+  "user-selected-options": {
+    "status": "success",
+    "message": "Successfully fetched user selected options",
+    "data": [
+      {
+        "option_name": "models",
+        "option_value": {
+          "llm_ids": [
+            5,
+            8,
+            15
+          ]
+        }
+      },
+      {
+        "option_name": "node",
+        "option_value": {
+          "node_list": [
+            {
+              "llm_id": 23,
+              "machine_type_id": 8
+            },
+            {
+              "llm_id": 9,
+              "machine_type_id": 1
+            }
+          ]
+        }
+      },
+      {
+        "option_name": "task_types",
+        "option_value": {
+          "llm_capability_ids": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "option_name": "team",
+        "option_value": {
+          "users": null,
+          "workspace_os": null,
+          "data_scientists": null
+        }
+      },
+      {
+        "option_name": "toolkit",
+        "option_value": {
+          "toolkitoption_ids": [
+            1,
+            2,
+            3
+          ]
+        }
+      }
+    ],
+    "code": 200
+  },
+  "certifications": {
+    "status": "success",
+    "message": "Successfully fetched certifications",
+    "data": [
+      {
+        "compliance_id": 2,
+        "certification_name": "SOC 2",
+        "certification_features": [
+          "Ensure Security Practices",
+          "Manage Privacy Controls",
+          "Enhance System Integrity"
+        ]
+      },
+      {
+        "compliance_id": 3,
+        "certification_name": "HIPAA",
+        "certification_features": [
+          "Protect Patient Data",
+          "Ensure Privacy Compliance",
+          "Secure Health Information"
+        ]
+      },
+      {
+        "compliance_id": 1,
+        "certification_name": "ISO 27001",
+        "certification_features": [
+          "Enhance Data Security",
+          "Manage Risk Effectively",
+          "Ensure Compliance Standards"
+        ]
+      }
+    ],
+    "code": 200
+  },
+  "level": {
+    "status": "success",
+    "message": "Successfully fetched compliance levels",
+    "data": [
+      {
+        "destination_id": 1,
+        "destination_name": "Just Kicking the Tyres",
+        "levels": [
+          "Basic infrastructure",
+          "Moderately secure"
+        ]
+      },
+      {
+        "destination_id": 2,
+        "destination_name": "Proof of Concept",
+        "levels": [
+          "Enhanced infrastructure",
+          "Medium secure"
+        ]
+      },
+      {
+        "destination_id": 3,
+        "destination_name": "Production",
+        "levels": [
+          "Production infrastructure ",
+          "Hign secure"
+        ]
+      }
+    ],
+    "code": 200
+  },
+  "projected-costs": {
+    "status": "success",
+    "message": "Successfully fetched projected costs",
+    "data": [
+      {
+        "inference_id": 23,
+        "model": "Gemma-7b-it-8k-q8",
+        "machine_type": "g5.xlarge",
+        "monthly_cost": 734.38,
+        "yearly_cost": 8812.56
+      },
+      {
+        "inference_id": 9,
+        "model": "Microsoft-phi-2-2k-q16",
+        "machine_type": "g4dn.xlarge",
+        "monthly_cost": 383.98,
+        "yearly_cost": 4607.76
+      }
+    ],
+    "code": 200
+  },
+  "diagram": {
+    "status": "success",
+    "message": "Successfully fetched diagram link",
+    "data": {
+      "diagram_link": "https://rokket-cloud-builder-services.s3.amazonaws.com/soc2_proof_of_concept.svg?AWSAccessKeyId=ASIA5LYBHD26R7FPU475&Signature=ZKtmE4CnvA%2BJYq7q%2FR53VuJt8Dk%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEFoaCXVzLWVhc3QtMSJGMEQCIAJqxsrhfgWJRVtbH%2BNsH4yxQsbjxKjPH9keXw62tOJnAiAJDdmIOpmxSc4SJ1AaTawZ1L9Y5ifqxplO2QR7fyliBiq8BQhDEAAaDDkxODU4ODY5NDIwNSIMjxHmvsSFQGIhQbzDKpkFUmy3w4AU80CZ7GkRBpjLX%2BD0rJPsgPP2jvNV4dokfoY4whiirSaRc0J4BJOggaQ%2B3lP9n%2BHMCO8U2tmdLznZbk9O12aSkKWK6i88hLi3ZacA7Dv3HZA74dtxuIe9I3taRsOT4pxnUUH8QvhfTKDVSSBvrZuofjMCulNjwkVTxi0nN4QisiJ%2BS8qqos3y%2BM2%2F3B1E6wd%2FwMXqqvwR8fdAUUaBmuDpA%2F8tW%2FOXXsvRHyhY0w33jReBPj2aH6vAdgIl%2BKoLKpmky0UMNEtSZSJyzNCdB9Y7gtGm5pG%2Fjf2AzZP9qpP5bw7gqe52neywzKGphyMAjTW05KxBUHWkfO%2BhgZ5ss%2FX8Mc599E%2FH%2F%2FcFU2%2BxIiF4jD8Nel02vGvmBiuDoQkabWelk95P4OIcCCh5fCf2GFYgCJiXCXGA1w3pbc4BgmZ2JWZxzdza5Z7KXpvK12DnB5tfZx8TyJE0y6T9eypM0rVaVVwflYo2FgDCno86nH1ZEqvPc7EcfXQvmDroAdOjJjIGgaW%2BhnC2IM%2BytUDaIgWph%2FzGbto2rcu6vmnfmXFX3TRBVtj2BbShb6Q%2FTU00ArQNhYAMGGhVhKPvwDHE9D7ag0d7%2FjRUpiN3YENtehP0H0%2FKDxLOOA9I8Kw4geQfm62%2FIVEEzWcEESDo1Ri0KafCYPckp8V7vlN5d1EeRrufsz7SAHCHSHzZqawU4R04VT3EnJx%2BMu5anHfEH88MMi0vzApDlld5Cx4tGM47cGwewVfS9aUphkrVQxB5tVwZW6Prm%2BU9FLamR2RxhXuoRLCT7vlKelVMOjVim7rfypN2nHXugTSsG2NIpY2vaaLqu1mXDcMGBvGJavftd8qK7A52Hn0gEiBBTsBQS2NcGtWJweYbhKAwwvGitQY6sgEo1qbO37E%2F2ewPBt374vCAYFSs5Lc4nxZBqwILxNjWT61%2FHGlQnuUnukqo%2FdzlUPkvs1Qn7GOQmngkQFQqFH7JF8NPimTQK7rJN8GP0bIBUl1r90lKrGAkUFL0nvh8hCHBlMtljvxLdCE%2Baz0U78OkkLJIhc7D6AieYrRM8AJYZJHXmP615%2FMXmGwBxJGmogIgG0V1IdBogLfTHfJIcmEoyEy3E76lVUP7Bp9xYliUUPGh&Expires=1722344036",
+      "compliance_standard": {
+        "name": "SOC 2"
+      },
+      "level_standard": {
+        "name": "Just Kicking the Tyres"
+      }
+    },
+    "code": 200
+  },
+  "datasets": {
+    "status": "success",
+    "message": "Test Datasets retrieved successfully",
+    "data": [
+      {
+        "data_id": 1,
+        "data_name": "RAG 12000",
+        "description": "Retrieval-Augmented Generation (RAG) Dataset 12000 is an English dataset designed for RAG-optimized models, built by Neural Bridge AI, and released under Apache license 2.0.",
+        "storage_location": "Publicly Available on Huggingface"
+      },
+      {
+        "data_id": 2,
+        "data_name": "Orca Math",
+        "description": "This dataset contains ~200K grade school math word problems. All the answers in this dataset is generated using Azure GPT4-Turbo. Please refer to Orca-Math: Unlocking the potential of SLMs in Grade School Math for details about the dataset construction.",
+        "storage_location": "Publicly Available on Huggingface"
+      },
+      {
+        "data_id": 3,
+        "data_name": "SQUAD",
+        "description": "Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.",
+        "storage_location": "Publicly Available on Huggingface"
+      }
+    ],
+    "code": 200
+  },
+  "metrics": {
+    "status": "success",
+    "message": "Inference metrics retrieved successfully",
+    "data": {
+      "inference_name": "Falcon-7b-Instruct-2k-q16",
+      "test_name": "INT8_QA_SQUAD - Falcon-7b-Instruct-2k-q16",
+      "data_name": "SQUAD",
+      "test_output_json": {
+        "test_id": "12",
+        "file_name": "INT8_QA_SQUAD_results.xlsx",
+        "task_type": "Question Answering",
+        "dataset_name": "SQUAD",
+        "model_name": "mosaicml/mpt-7b-8k-instruct",
+        "rouge1_score": "0.040693773",
+        "rouge2_score": "0.01610612536",
+        "rougel_score": "0.04032155535",
+        "rougelsum_score": "0.03953737793",
+        "gleu_score": "0",
+        "mauve_score": "0.08389900879",
+        "meteor_score": "0.03253628851",
+        "throughput_tokens_per_second": "1873.420789",
+        "total_time_seconds": "34.43486929",
+        "samples_per_second": "8.712099282",
+        "latency_seconds": "0.1147828976",
+        "avg_cpu_utilization_percentage": "10.204",
+        "avg_gpu_ram_utilization_percentage": "17.89348958",
+        "avg_disk_utilization_percentage": "32.3",
+        "cpu_before_load_percentage": "56.9",
+        "gpu_ram_before_load_percentage": "18.93798828",
+        "disk_before_load_percentage": "32.3",
+        "cpu_ram_before_load_gb": "6.950046539",
+        "total_gpu_ram_before_load_gb": "40",
+        "used_gpu_ram_before_load_gb": "7.575195313",
+        "total_disk_space_before_load_gb": "201.2251396",
+        "used_disk_space_before_load_gb": "64.96139526",
+        "cpu_after_load_percentage": "30.5",
+        "gpu_ram_after_load_percentage": "17.87353516",
+        "disk_after_load_percentage": "32.3",
+        "cpu_ram_after_load_gb": "6.939781189",
+        "total_gpu_ram_after_load_gb": "40",
+        "used_gpu_ram_after_load_gb": "7.149414063",
+        "total_disk_space_after_load_gb": "201.2251396",
+        "used_disk_space_after_load_gb": "64.96139908"
+      }
+    },
+    "code": 200
+  },
+  "parameters_in": [
+    {
+      "parameter_name": "TPS",
+      "is_new_parameter": false,
+      "parameter_descryption": "The term TPS (A100) likely refers to the number of transactions per second (TPS) that can be processed or supported by an NVIDIA A100 GPU. NVIDIA's A100 Tensor Core GPU is a high-performance computing (HPC) accelerator designed to handle a wide range of compute-intensive workloads, including artificial intelligence (AI), deep learning, data analytics, and scientific simulations.",
+      "id": "d6b6"
+    },
+    {
+      "parameter_name": "Throughput",
+      "is_new_parameter": false,
+      "parameter_descryption": "Throughput refers to the rate at which a system can process or transfer data, tasks, or transactions within a given period of time. It is a measure of the system's capacity or efficiency in handling workload and is often expressed in units such as bytes per second, transactions per second, or tasks per second.",
+      "id": "ba68"
+    },
+    {
+      "parameter_name": "Latency",
+      "is_new_parameter": false,
+      "parameter_descryption": "Latency refers to the time delay between the initiation of a request or task and the completion of the corresponding action or response. It is a measure of the time taken for data to travel from its source to its destination, or for a system to process a given input and produce an output. Latency is often expressed in units of time, such as milliseconds (ms) or microseconds (μs), and is a critical metric in various computing and communication systems.",
+      "id": "8489"
+    },
+    {
+      "id": "17f2",
+      "is_new_parameter": true,
+      "parameter_name": "HDF",
+      "parameter_descryption": "Description"
+    }
+  ],
+  "test_in": [
+    {
+      "test_id": 1,
+      "test_name": "Engine Performance Test",
+      "test_description": "Measures the efficiency and output of an engine.",
+      "metrics": [
+        {
+          "metric_name": "Oil Pressure",
+          "metric_description": "Pressure of engine oil",
+          "uom_type": "Pressure",
+          "uom_name": "psi",
+          "is_range": true,
+          "min_range_value": "20",
+          "max_range_value": "80"
+        }
+      ],
+      "id": "e63a"
+    },
+    {
+      "test_id": 2,
+      "test_name": "Battery Endurance Test",
+      "test_description": "Checks the battery life under continuous usage.",
+      "metrics": [
+        {
+          "metric_name": "Voltage",
+          "metric_description": "Battery output voltage",
+          "uom_type": "Voltage",
+          "uom_name": "V",
+          "is_range": true,
+          "min_range_value": "3.0",
+          "max_range_value": "4.2"
+        },
+        {
+          "metric_name": "Charge Cycles",
+          "metric_description": "Number of full charge cycles",
+          "uom_type": "Count",
+          "uom_name": "cycles",
+          "is_range": false,
+          "fixed_range_value": "500"
+        },
+        {
+          "metric_name": "RPM",
+          "metric_description": "Revolutions per minute",
+          "uom_type": "Speed",
+          "uom_name": "rpm",
+          "is_range": true,
+          "min_range_value": "800",
+          "max_range_value": "6000"
+        }
+      ],
+      "id": "3c99"
+    },
+    {
+      "test_id": 3,
+      "test_name": "Network Latency Test",
+      "test_description": "Evaluates network response time and stability.",
+      "metrics": [
+        {
+          "metric_name": "Ping Time",
+          "metric_description": "Time taken to send and receive data",
+          "uom_type": "Time",
+          "uom_name": "ms",
+          "is_range": true,
+          "min_range_value": "5",
+          "max_range_value": "200"
+        },
+        {
+          "metric_name": "Packet Loss",
+          "metric_description": "Percentage of lost data packets",
+          "uom_type": "Percentage",
+          "uom_name": "%",
+          "is_range": true,
+          "min_range_value": "0",
+          "max_range_value": "5"
+        }
+      ],
+      "id": "77b1"
+    },
+    {
+      "test_id": 4,
+      "test_name": "Water Purity Test",
+      "test_description": "Determines the level of contaminants in water.",
+      "metrics": [
+        {
+          "metric_name": "pH Level",
+          "metric_description": "Acidity or alkalinity of water",
+          "uom_type": "pH",
+          "uom_name": "pH",
+          "is_range": true,
+          "min_range_value": "6.5",
+          "max_range_value": "8.5"
+        }
+      ],
+      "id": "06a0"
+    },
+    {
+      "test_id": 5,
+      "test_name": "Air Quality Test",
+      "test_description": "Analyzes air pollutants and quality index.",
+      "metrics": [
+        {
+          "metric_name": "PM2.5 Level",
+          "metric_description": "Fine particulate matter concentration",
+          "uom_type": "Concentration",
+          "uom_name": "µg/m³",
+          "is_range": true,
+          "min_range_value": "0",
+          "max_range_value": "100"
+        },
+        {
+          "metric_name": "CO2 Level",
+          "metric_description": "Carbon dioxide concentration",
+          "uom_type": "Concentration",
+          "uom_name": "ppm",
+          "is_range": true,
+          "min_range_value": "300",
+          "max_range_value": "1000"
+        },
+        {
+          "metric_name": "TDS",
+          "metric_description": "Total dissolved solids in water",
+          "uom_type": "Concentration",
+          "uom_name": "ppm",
+          "is_range": true,
+          "min_range_value": "50",
+          "max_range_value": "500"
+        }
+      ],
+      "id": "3572"
+    }
+  ],
+  "measurement-type_in": [
+    {
+      "measurement_type_id": 1,
+      "type_name": "Number",
+      "id": "c3b3"
+    },
+    {
+      "measurement_type_id": 2,
+      "type_name": "Ratio",
+      "id": "5333"
+    },
+    {
+      "measurement_type_id": 3,
+      "type_name": "Percentage",
+      "id": "73cd"
+    },
+    {
+      "measurement_type_id": 4,
+      "type_name": "Meter",
+      "id": "ffb2"
+    }
+  ],
+  "units-of-measure_in": [
+    {
+      "uom_id": 1,
+      "uom_name": "Weight",
+      "measurement_type_id": 1,
+      "measurement_type_name": "Number",
+      "id": "0640"
+    },
+    {
+      "uom_id": 2,
+      "uom_name": "Training Data Size",
+      "measurement_type_id": 1,
+      "measurement_type_name": "Number",
+      "id": "b669"
+    },
+    {
+      "uom_id": 3,
+      "uom_name": "Accuracy",
+      "measurement_type_id": 3,
+      "measurement_type_name": "Percentage",
+      "id": "2c83"
+    },
+    {
+      "uom_id": 4,
+      "uom_name": "Model Score",
+      "measurement_type_id": 2,
+      "measurement_type_name": "Ratio",
+      "id": "9295"
+    },
+    {
+      "uom_id": 5,
+      "uom_name": "Batch Size",
+      "measurement_type_id": 1,
+      "measurement_type_name": "Number",
+      "id": "7197"
+    },
+    {
+      "uom_id": 6,
+      "uom_name": "Processing Time",
+      "measurement_type_id": 1,
+      "measurement_type_name": "Number",
+      "id": "90cc"
+    },
+    {
+      "uom_id": 7,
+      "uom_name": "Precision",
+      "measurement_type_id": 3,
+      "measurement_type_name": "Percentage",
+      "id": "0658"
+    },
+    {
+      "uom_id": 8,
+      "uom_name": "Recall",
+      "measurement_type_id": 3,
+      "measurement_type_name": "Percentage",
+      "id": "9709"
+    },
+    {
+      "uom_id": 9,
+      "uom_name": "Loss Value",
+      "measurement_type_id": 2,
+      "measurement_type_name": "Ratio",
+      "id": "5a4c"
+    },
+    {
+      "uom_id": 10,
+      "uom_name": "False Positives",
+      "measurement_type_id": 1,
+      "measurement_type_name": "Number",
+      "id": "143b"
+    },
+    {
+      "uom_id": 11,
+      "uom_name": "False Negatives",
+      "measurement_type_id": 1,
+      "measurement_type_name": "Number",
+      "id": "faa6"
+    },
+    {
+      "uom_id": 12,
+      "uom_name": "Learning Rate",
+      "measurement_type_id": 2,
+      "measurement_type_name": "Ratio",
+      "id": "1046"
+    },
+    {
+      "uom_id": 13,
+      "uom_name": "Epochs",
+      "measurement_type_id": 4,
+      "measurement_type_name": "Number",
+      "id": "9f8f"
+    },
+    {
+      "uom_id": 14,
+      "uom_name": "Dropout Rate",
+      "measurement_type_id": 2,
+      "measurement_type_name": "Ratio",
+      "id": "d918"
+    },
+    {
+      "uom_id": 15,
+      "uom_name": "F1 Score",
+      "measurement_type_id": 3,
+      "measurement_type_name": "Percentage",
+      "id": "14e9"
+    }
+  ],
+  "models_in": [
+    {
+      "llm_family": "Mistral-7B",
+      "llm_family_id": 47,
+      "id": "6038"
+    },
+    {
+      "llm_family": "Llama-3-8B",
+      "llm_family_id": 48,
+      "id": "94fa"
+    },
+    {
+      "llm_family": "Gemma-2B",
+      "llm_family_id": 49,
+      "id": "ca33"
+    }
+  ],
+  "inference-method_in": [
+    {
+      "inference_method_id": 3,
+      "name": "GPT-4-Turbo",
+      "id": "3c01"
+    },
+    {
+      "inference_method_id": 4,
+      "name": "Mistral-7B",
+      "id": "b650"
+    },
+    {
+      "inference_method_id": 5,
+      "name": "Llama-3-8B",
+      "id": "9660"
+    },
+    {
+      "inference_method_id": 6,
+      "name": "Gemma-2B",
+      "id": "5336"
+    },
+    {
+      "inference_method_id": 7,
+      "name": "Falcon-40B",
+      "id": "aa67"
+    }
+  ],
+  "test-type_in": [
+    {
+      "test_type_id": 14,
+      "test_type": "Performance Test",
+      "id": "266d"
+    },
+    {
+      "test_type_id": 15,
+      "test_type": "Load Test",
+      "id": "2f11"
+    },
+    {
+      "test_type_id": 16,
+      "test_type": "Stress Test",
+      "id": "06ad"
+    },
+    {
+      "test_type_id": 17,
+      "test_type": "Functional Test",
+      "id": "4665"
+    }
+  ],
+  "test-machine_in": [
+    {
+      "test_machine_id": 4,
+      "name": "c5.4xlarge",
+      "id": "6b57"
+    },
+    {
+      "test_machine_id": 5,
+      "name": "m5.8xlarge",
+      "id": "ec70"
+    },
+    {
+      "test_machine_id": 6,
+      "name": "t3.medium",
+      "id": "3d12"
+    },
+    {
+      "test_machine_id": 7,
+      "name": "r5.2xlarge",
+      "id": "e6a2"
+    },
+    {
+      "test_machine_id": 8,
+      "name": "p3.16xlarge",
+      "id": "c82f"
+    }
+  ],
+  "inferences_in": [
+    {
+      "id": "1",
+      "llm_id": 47,
+      "is_base": false,
+      "inference_name": "IN-0001",
+      "inference_description": "Description",
+      "inference_method_id": 3,
+      "inference_parameters": [
+        {
+          "parameter_name": "TPS",
+          "is_new_parameter": false,
+          "parameter_descryption": "The term TPS (A100) likely refers to the number of transactions per second (TPS) that can be processed or supported by an NVIDIA A100 GPU. NVIDIA's A100 Tensor Core GPU is a high-performance computing (HPC) accelerator designed to handle a wide range of compute-intensive workloads, including artificial intelligence (AI), deep learning, data analytics, and scientific simulations.",
+          "measurement_type_id": 1,
+          "uom_id": 1,
+          "is_range": false,
+          "fixed_range_value": "100"
+        },
+        {
+          "parameter_name": "Throughput",
+          "is_new_parameter": false,
+          "parameter_descryption": "Throughput refers to the rate at which a system can process or transfer data, tasks, or transactions within a given period of time. It is a measure of the system's capacity or efficiency in handling workload and is often expressed in units such as bytes per second, transactions per second, or tasks per second.",
+          "measurement_type_id": 2,
+          "uom_id": 4,
+          "is_range": true,
+          "min_range_value": "10",
+          "max_range_value": "20"
+        },
+        {
+          "parameter_name": "Latency",
+          "is_new_parameter": false,
+          "parameter_descryption": "Latency refers to the time delay between the initiation of a request or task and the completion of the corresponding action or response. It is a measure of the time taken for data to travel from its source to its destination, or for a system to process a given input and produce an output. Latency is often expressed in units of time, such as milliseconds (ms) or microseconds (μs), and is a critical metric in various computing and communication systems.",
+          "measurement_type_id": 2,
+          "uom_id": 9,
+          "is_range": true,
+          "min_range_value": "20",
+          "max_range_value": "50"
+        },
+        {
+          "id": "17f2",
+          "is_new_parameter": true,
+          "parameter_name": "HDF",
+          "parameter_descryption": "Description",
+          "measurement_type_id": 4,
+          "uom_id": 13,
+          "is_range": false,
+          "fixed_range_value": "100"
+        }
+      ],
+      "inference_tests": [
+        {
+          "test_id": "3",
+          "test_type_id": "17",
+          "tested_machine_id": "6",
+          "metrics": [
+            {
+              "metric_name": "Ping Time",
+              "metric_description": "Time taken to send and receive data",
+              "uom_type": "Time",
+              "uom_name": "ms",
+              "is_range": false,
+              "fixed_range_value": "100"
+            },
+            {
+              "metric_name": "Packet Loss",
+              "metric_description": "Percentage of lost data packets",
+              "uom_type": "Percentage",
+              "uom_name": "%",
+              "is_range": false,
+              "fixed_range_value": "400"
+            }
+          ]
+        },
+        {
+          "test_id": "2",
+          "test_type_id": "15",
+          "tested_machine_id": "5",
+          "metrics": [
+            {
+              "metric_name": "Voltage",
+              "metric_description": "Battery output voltage",
+              "uom_type": "Voltage",
+              "uom_name": "V",
+              "is_range": true,
+              "fixed_range_value": "",
+              "min_range_value": "3.0",
+              "max_range_value": "4.2"
+            },
+            {
+              "metric_name": "Charge Cycles",
+              "metric_description": "Number of full charge cycles",
+              "uom_type": "Count",
+              "uom_name": "cycles",
+              "is_range": false,
+              "fixed_range_value": "500"
+            },
+            {
+              "metric_name": "RPM",
+              "metric_description": "Revolutions per minute",
+              "uom_type": "Speed",
+              "uom_name": "rpm",
+              "is_range": true,
+              "fixed_range_value": "",
+              "min_range_value": "800",
+              "max_range_value": "6000"
+            }
+          ]
+        },
+        {
+          "test_id": "1",
+          "test_type_id": "14",
+          "tested_machine_id": "4",
+          "metrics": [
+            {
+              "metric_name": "Oil Pressure",
+              "metric_description": "Pressure of engine oil",
+              "uom_type": "Pressure",
+              "uom_name": "psi",
+              "is_range": true,
+              "fixed_range_value": "",
+              "min_range_value": "20",
+              "max_range_value": "80"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "llm_id": 47,
+      "is_base": false,
+      "inference_name": "IN-0002",
+      "inference_description": "Description of the IN-0001",
+      "inference_method_id": 6,
+      "inference_parameters": [
+        {
+          "parameter_name": "TPS",
+          "is_new_parameter": false,
+          "parameter_descryption": "The term TPS (A100) likely refers to the number of transactions per second (TPS) that can be processed or supported by an NVIDIA A100 GPU. NVIDIA's A100 Tensor Core GPU is a high-performance computing (HPC) accelerator designed to handle a wide range of compute-intensive workloads, including artificial intelligence (AI), deep learning, data analytics, and scientific simulations.",
+          "id": "d6b6",
+          "measurement_type_id": 1,
+          "uom_id": 1,
+          "is_range": false,
+          "fixed_range_value": "12"
+        },
+        {
+          "parameter_name": "Throughput",
+          "is_new_parameter": false,
+          "parameter_descryption": "Throughput refers to the rate at which a system can process or transfer data, tasks, or transactions within a given period of time. It is a measure of the system's capacity or efficiency in handling workload and is often expressed in units such as bytes per second, transactions per second, or tasks per second.",
+          "id": "ba68",
+          "measurement_type_id": 1,
+          "uom_id": 2,
+          "is_range": false,
+          "fixed_range_value": "13"
+        },
+        {
+          "parameter_name": "Latency",
+          "is_new_parameter": false,
+          "parameter_descryption": "Latency refers to the time delay between the initiation of a request or task and the completion of the corresponding action or response. It is a measure of the time taken for data to travel from its source to its destination, or for a system to process a given input and produce an output. Latency is often expressed in units of time, such as milliseconds (ms) or microseconds (μs), and is a critical metric in various computing and communication systems.",
+          "id": "8489",
+          "measurement_type_id": 3,
+          "uom_id": 3,
+          "is_range": true,
+          "min_range_value": "12",
+          "max_range_value": "35"
+        },
+        {
+          "id": "17f2",
+          "is_new_parameter": true,
+          "parameter_name": "HDF",
+          "parameter_descryption": "Description",
+          "is_range": false,
+          "measurement_type_id": 4,
+          "uom_id": 13,
+          "fixed_range_value": "12"
+        }
+      ],
+      "inference_tests": [
+        {
+          "test_id": "1",
+          "test_type_id": "14",
+          "tested_machine_id": "4",
+          "metrics": [
+            {
+              "metric_name": "Oil Pressure",
+              "metric_description": "Pressure of engine oil",
+              "uom_type": "Pressure",
+              "uom_name": "psi",
+              "is_range": true,
+              "fixed_range_value": "",
+              "min_range_value": "20",
+              "max_range_value": "80"
+            }
+          ]
+        },
+        {
+          "test_id": "2",
+          "test_type_id": "16",
+          "tested_machine_id": "7",
+          "metrics": [
+            {
+              "metric_name": "Voltage",
+              "metric_description": "Battery output voltage",
+              "uom_type": "Voltage",
+              "uom_name": "V",
+              "is_range": true,
+              "fixed_range_value": "",
+              "min_range_value": "3.0",
+              "max_range_value": "4.2"
+            },
+            {
+              "metric_name": "Charge Cycles",
+              "metric_description": "Number of full charge cycles",
+              "uom_type": "Count",
+              "uom_name": "cycles",
+              "is_range": false,
+              "fixed_range_value": "500",
+              "min_range_value": "",
+              "max_range_value": ""
+            },
+            {
+              "metric_name": "RPM",
+              "metric_description": "Revolutions per minute",
+              "uom_type": "Speed",
+              "uom_name": "rpm",
+              "is_range": true,
+              "fixed_range_value": "",
+              "min_range_value": "800",
+              "max_range_value": "6000"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "base_in": [
+    {
+      "llm_name": "Base 2",
+      "llm_type": "des 1",
+      "isEditing": true,
+      "id": "1"
+    },
+    {
+      "llm_name": "Base_00001",
+      "llm_type": "Desc_00001",
+      "isEditing": true,
+      "attributes": [
+        {
+          "attribute_description": "DES",
+          "attribute_name": "NEW",
+          "isEditing": false,
+          "attribute_value": {
+            "uom": "",
+            "value": "",
+            "is_measured": false,
+            "is_range": false,
+            "uom_type": ""
+          }
+        },
+        {
+          "attribute_description": "DES",
+          "attribute_name": "OLD",
+          "isEditing": false,
+          "attribute_value": {
+            "uom": "3",
+            "value": "",
+            "is_measured": true,
+            "is_range": true,
+            "min_range_value": "20",
+            "max_range_value": "45",
+            "uom_type": "Parameters"
+          }
+        }
+      ],
+      "id": "2"
+    }
+  ]
+}

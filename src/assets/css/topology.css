@@ -1,0 +1,37 @@
+section.main-section {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 220px;
+}
+
+.content-wrapper {
+  width: 100%;
+  margin: 0;
+}
+
+.chosen-order {
+  width: 280px;
+}
+
+[data-choice='true'] {
+  display: none;
+}
+
+.topology-screen-panel {
+  min-height: 500px;
+  display: flex !important;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.panel-footer {
+  border-top: none;
+}
+
+/* For desktops */
+@media only screen and (min-width: 1441px) {
+  .content-wrapper {
+    width: 100%;
+    margin: 0;
+  }
+}

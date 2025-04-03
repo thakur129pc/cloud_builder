@@ -1,0 +1,54 @@
+section.main-section {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 220px;
+}
+
+.content-wrapper {
+  width: 100%;
+  margin: 0;
+}
+
+.chosen-order {
+  width: 280px;
+}
+
+[data-choice='true'] {
+  display: none;
+}
+
+.topology-screen-panel {
+  min-height: 608px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: start;
+}
+
+table.table {
+  border: none !important;
+}
+
+#machine-types {
+  width: 140% !important;
+  max-width: initial;
+}
+
+.freeze-columns {
+  width: 10%;
+  position: sticky !important;
+  left: 0;
+  z-index: 1;
+  background-color: #ffffff;
+}
+
+td.os {
+  text-transform: initial;
+}
+
+/* For desktops */
+@media only screen and (min-width: 1441px) {
+  .content-wrapper {
+    width: 100%;
+    margin: 0;
+  }
+}
