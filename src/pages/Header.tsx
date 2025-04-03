@@ -1,16 +1,39 @@
-import { Outlet, Link } from "react-router-dom";
-
 const Header: React.FC = () => {
   return (
-    <div>
-      <Link to="/">Home</Link>
-      <Link to="/register">Register</Link>
-      <Link to="/login">Login</Link>
-      <Link to="/dashboard/dash">Dashboard</Link>
-      <Link to="/dashboard/machineTypes">Machine Types</Link>
-      <Link to="/dashboard/reconfigure">Reconfigure</Link>
-      <Outlet />
-    </div>
+    <header className="topnavbar-wrapper">
+      {/* <!-- START Top Navbar--> */}
+      <nav role="navigation" className="navbar topnavbar">
+        {/* <!-- START navbar header--> */}
+        <div className="user-section">
+          <h2 className="logo-title"> Rokket AI </h2>
+        </div>
+        <div className="sec-title">
+          <h3 className="sec_title_tag" data-picklistid>
+            {' '}
+            &nbsp;{' '}
+          </h3>
+        </div>
+        <div className="navbar-header pull-right"></div>
+
+        <div className="nav-wrapper">
+          <ul className="nav navbar-nav">
+            <li>
+              <a
+                href="#"
+                data-toggle-state="aside-toggled"
+                data-no-persist="true"
+                className="visible-xs sidebar-toggle"
+              >
+                <em className="fa fa-navicon"></em>{' '}
+              </a>
+            </li>
+            {/* <!-- START User avatar toggle--> */}
+          </ul>
+        </div>
+        {/* <!-- END Nav wrapper--> */}
+      </nav>
+      {/* <!-- END Top Navbar--> */}
+    </header>
   );
 };
 export default Header;
